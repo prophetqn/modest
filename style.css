@@ -181,7 +181,7 @@ header .container ul li a.active {
 }
 #about ul li {
 	display: inline-block;
-	margin-left: -4px;
+	margin-left: -3px;
 }
 #about ul li:first-child {
 	margin-left: 0;
@@ -295,7 +295,7 @@ header .container ul li a.active {
 #team-list .mask ul li {
 	list-style: none;
 	display: inline-block;
-	margin-left: -4px;
+	margin-left: -3px;
 	cursor: pointer;
 }
 #team-list .mask ul li:first-child {
@@ -489,24 +489,19 @@ header .container ul li a.active {
 	font-size: 16px;
 	line-height: 26px;
 	color: #dcdfe1;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 /*contact*/
-#contact {
-	padding-top: 77px;
-	padding-bottom: 80px;
-	background-image: url(images/map.png);
-	background-size: auto;
-	background-repeat: no-repeat;
-	background-position: 0px 180px;
-}
-#contact h2 {
+#contact .container h2 {
 	color: #292f36;
-	margin-bottom: 300px;
+	margin-top: 70px;
+	margin-bottom: 52px;
 }
 #contact .container > div {
 	display: inline-block;
 	width: 555px;
+	vertical-align: top;
+	padding-top: 60px;
 }
 #contact .container > div h4 {
 	font-size: 20px;
@@ -525,8 +520,9 @@ header .container ul li a.active {
 #contact .container form {
 	display: inline-block;
 	background: white;
-	padding: 30px 30px;
+	padding: 30px 30px 0px;
 	width: 555px;
+	transform: translateY(-110px);
 }
 #contact .container form > div:first-child {
 	display: flex;
@@ -539,21 +535,24 @@ header .container ul li a.active {
 	width: 100%;
 	height: 44px;
 	font-size: 16px;
-	line-height: 26px; 
+	line-height: 20px; 
 	border-radius: 3px;
 	border: none;
 	background-color: #eaeef1;
 	margin-bottom: 30px;
+	padding: 5px 5px;
 }
 #contact .container form > div textarea {
 	width: 100%;
 	height: 160px;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 20px;
 	border-radius: 3px;
 	border: none;
 	background-color: #eaeef1;
 	margin-bottom: 30px;
+	padding: 5px 5px;
+	font-family: open sans;
 }
 #contact .container form label {
 	font-size: 14px;
@@ -577,8 +576,8 @@ header .container ul li a.active {
 }
 /*footer*/
 footer {
-	height: 95px;
-	line-height: 95px;
+	height: 80px;
+	line-height: 80px;
 	background-color: #3a454d;
 }
 footer .container {
@@ -587,7 +586,7 @@ footer .container {
 }
 footer .container p {
 	font-size: 14px;
-	line-height: 95px;
+	line-height: 80px;
 	color: white;
 }
 footer .container ul li {

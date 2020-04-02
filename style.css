@@ -73,6 +73,7 @@ header .container ul li a.active {
 /*hero*/
 #hero {
 	height: 660px;
+	background-color: #424157;
 	background-image: url(images/banner.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;

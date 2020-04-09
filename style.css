@@ -762,6 +762,9 @@ footer .container ul li:nth-child(5) a {
 	#work .container > div > div:focus .mask h4 {
 		height: 60px;
 	}
+	#work .action button:hover {
+		outline: none;
+	}
 	#contact .container form > div:first-child {
 		display: block;
 	}
@@ -817,7 +820,7 @@ footer .container ul li:nth-child(5) a {
 	#team-list .mask ul li a {
 	    width: calc((50vw - 120px) / 3);
 		height: calc((50vw - 120px) / 3);
-		background-size: 30%;
+		background-size: auto 30%;
 	}
 	#work .container > div > div {
 		width: calc((100% - 20px)/2);
@@ -870,6 +873,9 @@ footer .container ul li:nth-child(5) a {
 	#about .container div {
 		display: block;
 	}
+	#about .container p {
+		text-align: justify;
+	}
 	#about .container > div div:first-child,
 	#about .container > div div:last-child {
 		width: 100%;
@@ -882,7 +888,6 @@ footer .container ul li:nth-child(5) a {
 		text-align: center;
 		margin-bottom: 30px;
 	}
-	
 	#features .feature-list {
 		display: block;
 	}
@@ -906,6 +911,7 @@ footer .container ul li:nth-child(5) a {
 		margin-bottom: 20px;
 	}
 	#contact .container > div p {
+		text-align:	justify;
 		margin-bottom: 20px;
 	}
 	#contact .container form {
@@ -931,26 +937,29 @@ footer .container ul li:nth-child(5) a {
 	#about ol li:before {
 		display: none;
 	}
+	#about ul {
+	    text-align: left;
+	}
 	#about ul li a {
-	    width: calc((100vw - 60px) / 5);
-		height: calc((100vw - 60px) / 5);
+	    width: calc((100vw - 70px) / 5);
+		height: calc((100vw - 70px) / 5);
 	}
 	#team-list {
 		align-items: center;
 		text-align: center;
 	}
 	#team-list > div {
-		width: 70%;
+		width: 80%;
 		margin: 0 auto 20px;
 	}
 	#team-list .mask ul {
-	   	left: 16px;
+	   	left: 44px;
 	   	bottom: 10px;
 	}
 	#team-list .mask ul li a {
-	    width: calc((70vw - 70px) / 3);
-		height: calc((70vw - 70px) / 3);
-		background-size: 30%;
+	    width: calc((70vw - 80px) / 3);
+		height: calc((70vw - 80px) / 3);
+		background-size: auto 30%;
 	}
 	#work .container > div > div {
 		width: 100%;
@@ -959,7 +968,6 @@ footer .container ul li:nth-child(5) a {
 		width: 100%;
 		margin-bottom: 30px;
 	}
-
 	#services ul li:before {
 		display: block;
 		position: absolute;
@@ -973,7 +981,7 @@ footer .container ul li:nth-child(5) a {
 		margin: 0px 15px 0px 55px;
 	}
 	#services .service-content p {
-		text-align:	left;
+		text-align:	justify;
 		margin-left: 55px;
 	}
 	#contact .container form button {
